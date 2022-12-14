@@ -1,0 +1,22 @@
+{
+  "name": "ps-website-audio-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel app.js --hmr-port 50619"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshvdw/ps-website-audio-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joshvdw/ps-website-audio-dev/issues"
+  },
+  "homepage": "https://github.com/Joshvdw/ps-website-audio-dev#readme",
+  "dependencies": {
+    "parcel": "^2.8.0"
+  }
+}
