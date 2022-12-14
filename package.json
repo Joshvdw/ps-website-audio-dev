@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Joshvdw/ps-website-audio-dev#readme",
   "dependencies": {
+    "bodymovin": "^4.13.0",
     "parcel": "^2.8.0"
   }
 }

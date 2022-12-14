@@ -18,12 +18,13 @@
   const music_volume = 0.2;
   music.volume = music_volume;
 
-  $(document).ready(function(){
+  if (document.readyState !== 'loading') {
     if (musicState) {
       music.currentTime = (musicState + 10);
     }
+    console.log('loaded');
     fadeInMusic();  
-  })  
+  }
 
   // MUSIC FADE-OUT
   window.onbeforeunload = function(){
